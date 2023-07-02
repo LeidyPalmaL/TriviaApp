@@ -1,0 +1,77 @@
+:root{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color:orange;
+}
+
+body{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    grid-template-columns: 33% 33% 33%;
+    background-color: rgb(44, 132, 55);
+ }
+#mainContent{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* grid-template-rows: 33% 33% 33%; */
+    background-color: black;
+ }
+ #config{
+    display: grid;
+    /* align-items: center;
+    justify-content: center; */
+    background-color: rgb(168, 244, 177);
+    padding: 0.5rem;
+ }
+.pair{
+    display: grid;
+    padding-top: 1rem;
+ }
+#trivia{
+    background-color: green;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+.name{
+    color: #006E07;
+}
+#generateTrivia{
+    margin-top: 1rem;
+    background-color: green;
+    color:orange;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+#validate{
+    margin-top: 1rem;
+    background-color: #004100;
+    color:orange;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+header{
+    background-color: green;
+    display: flex;
+    justify-content: flex-start;
+    color: #FF7800;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+footer{
+    background-color: green;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+main{
+    background-color: green;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#score{
+    font-weight: bold;
+}

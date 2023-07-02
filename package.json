@@ -1,0 +1,25 @@
+{
+  "name": "triviaapp",
+  "version": "1.0.0",
+  "description": "Juego de preguntas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeidyPalmaL/TriviaApp.git"
+  },
+  "keywords": [
+    "preguntas"
+  ],
+  "author": "Leidy Palma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeidyPalmaL/TriviaApp/issues"
+  },
+  "homepage": "https://github.com/LeidyPalmaL/TriviaApp#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
